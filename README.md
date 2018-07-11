@@ -1,5 +1,5 @@
 # JavaScript_GuessingGame
 
-<h>JavaScrip Web App Game</h>
+<h1>JavaScript Web App Game</h1>
 
 <p>simple guessing game on RGB colors</p>
