@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+body {
+    background: #232323;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#container {
+    max-width: 600px;
+    margin: 2% auto;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10px;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: 'Concert One', cursive;
+    color: steelblue;
+    height: 100%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
+}
+
+#colorDisplay {
+    font-size: 150%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-weight: 700;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+#title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
